@@ -8,7 +8,7 @@ export async function searchRepositories( query) {
     const response = await octokit.request('GET /search/repositories', {
       q: query,
       headers: {
-        authorization: `token ${'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'}`,
+        authorization: `token ${'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'}`, // Here Just need Update your Token
       },
     });
 
